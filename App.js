@@ -1,3 +1,4 @@
+import "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
 import React, { useCallback } from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -8,7 +9,6 @@ import ReviewDetails from "./Screens/ReviewDetails";
 import * as SplashScreen from "expo-splash-screen";
 import { GloblalStyles } from "./Styles/GloblalStyles";
 import Home from "./Screens/Home";
-import "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
